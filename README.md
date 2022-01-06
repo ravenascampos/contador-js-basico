@@ -11,3 +11,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 
 ## Página do projeto
+[Clique aqui](https://ravenascampos.github.io/contador-js-basico/)

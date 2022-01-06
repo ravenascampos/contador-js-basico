@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Baloo 2";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff3eb;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #7b3911;
+}
+
+div.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#currentNumber {
+  color: #7b3911;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+}
+
+main img {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+  max-width: 80%;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 2rem;
+  transition: 0.3s;
+  color: #7b3911;
+}
+
+button:hover {
+  color: #8098b8;
+}
+
+footer {
+  background: #8098b8;
+  margin-top: 15rem;
+  padding: 4rem 0;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  margin-top: 2rem;
+  padding: 0 2rem;
+}
+
+li a {
+  transition: 0.3s;
+  display: inline-block;
+}
+
+li a:hover {
+  transform: translateY(-8px);
+}
+
+footer p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #7b3911;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer img {
+  width: 2rem;
+  height: 2rem;
+}
